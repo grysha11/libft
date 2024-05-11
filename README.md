@@ -1,3 +1,4 @@
+
 # Libft project
 
 First project in Core Curriculum in 42 School. 
@@ -16,3 +17,12 @@ Use shell command `man` to check documentation of functions.
 - [`ft_isprint`](https://www.programiz.com/c-programming/library-function/ctype.h/isprint)
 - [`ft_toupper`](https://www.programiz.com/c-programming/library-function/ctype.h/toupper)
 - [`ft_tolower`](https://www.programiz.com/c-programming/library-function/ctype.h/tolower)
+
+### `<string.h>` library
+- [`ft_strlen`](https://www.programiz.com/c-programming/library-function/string.h/strlen)
+- [`ft_bzero`](https://pubs.opengroup.org/onlinepubs/009695399/functions/bzero.html)
+- [`ft_memcpy`](https://www.geeksforgeeks.org/memcpy-in-cc/)
+- [`ft_memmove`](https://www.geeksforgeeks.org/memmove-in-cc/)
+- [`ft_memset`](https://www.geeksforgeeks.org/memset-c-example/)
+- [`ft_strdup`](https://www.geeksforgeeks.org/strdup-strdndup-functions-c/)
+- [`ft_strlcpy`](https://linux.die.net/man/3/strlcpy)
