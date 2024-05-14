@@ -33,3 +33,8 @@ Use shell command `man` to check documentation of functions.
 - [`ft_memchr`](https://www.tutorialspoint.com/c_standard_library/c_function_memchr.htm) - source [`code`](ft_memchr.c)
 - [`ft_memcmp`](https://www.tutorialspoint.com/c_standard_library/c_function_memcmp.htm) - source [`code`](ft_memcmp.c)
 - [`ft_strnstr`](https://man.freebsd.org/cgi/man.cgi?query=strnstr&sektion=3) - source [`code`](ft_strnstr.c)
+
+### `<stdlib.h>` library
+
+- [`ft_atoi`](https://www.tutorialspoint.com/c_standard_library/c_function_atoi.htm) - source [`code`](ft_atoi.c)
+- [`ft_calloc`](https://www.tutorialspoint.com/c_standard_library/c_function_calloc.htm) - source [`code`](ft_calloc.c)
