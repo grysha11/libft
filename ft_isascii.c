@@ -1,11 +1,25 @@
-int ft_isascii(unsigned char c)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_isascii.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/05/19 16:25:04 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/05/19 16:25:33 by hzakharc         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+int	ft_isascii(unsigned char c)
 {
-    if (c >= 0 && c <= 127)
-    {
-        return (1);
-    }
-    else
-    {
-        return (0);
-    }
+	if (c >= 0 && c <= 127)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
