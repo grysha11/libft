@@ -2,29 +2,22 @@
 
 char *ft_strtrim(char const *s1, char const *set)
 {
-    char *str;
-    size_t len;
     size_t i;
     size_t j;
-    size_t k;
+    char *str;
 
-    len = ft_strlen(s1) - ft_strlen(set) + 1;
-    str = (char *)malloc(len);
-    if (str == NULL)
-        return (NULL);
-    i = 0;
-    j = 0;
-    k = 0;
-    while (s1[i] != '\0')
+    str = 0;
+    if (s1 != 0 && set != 0)
     {
-        if (s1[i] == set[j])
-        {
+        i = 0;
+        j = ft_strlen(s1);
+        while (s1[i] && ft_strchr(set, s1[i]))
             i++;
-            j++;
-        }
-        str[k] = s1[i];
-        k++;
-        i++;
+        while (s1[j - 1] && ft_strchr(set, s1[j - 1]) && j > i)
+            j--;
+        str = (char *)malloc(sizeof(char) * (j- i + 1));
+        if (str != NULL)
+            ft_strlcpy(str, &s1[i], j - i + 1);
     }
     return (str);
 }
