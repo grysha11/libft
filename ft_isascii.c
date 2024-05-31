@@ -6,13 +6,13 @@
 /*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/19 16:25:04 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/19 16:25:33 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/05/31 00:20:17 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isascii(unsigned char c)
+int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 	{

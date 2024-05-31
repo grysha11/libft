@@ -6,13 +6,13 @@
 /*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/19 16:26:34 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/19 16:27:05 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/05/30 22:03:06 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isprint(unsigned char c)
+int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
 	{

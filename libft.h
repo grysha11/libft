@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/19 16:49:06 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/30 00:50:37 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/05/31 00:21:54 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@
 
 int		ft_atoi(const char *str);
 int		ft_isalnum(unsigned char c);
-int		ft_isalpha(unsigned char c);
-int		ft_isascii(unsigned char c);
-int		ft_isdigit(unsigned char c);
-int		ft_isprint(unsigned char c);
+int		ft_isalpha(int c);
+int		ft_isascii(int c);
+int		ft_isdigit(int c);
+int		ft_isprint(int c);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlen(const char *str);
 int		ft_tolower(int i);
