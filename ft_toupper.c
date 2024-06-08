@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:48:46 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/19 16:48:57 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 22:11:16 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 22:11:16 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

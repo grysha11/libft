@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:22:18 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/31 00:20:05 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 21:59:37 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 21:59:39 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

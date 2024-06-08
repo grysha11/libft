@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:37:51 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/19 16:38:50 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 22:09:47 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 22:09:48 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

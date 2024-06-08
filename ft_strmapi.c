@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/29 18:13:12 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/31 13:41:45 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 22:10:37 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 22:10:38 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

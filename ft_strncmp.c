@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:41:51 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/19 16:42:27 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 22:10:42 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 22:10:43 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

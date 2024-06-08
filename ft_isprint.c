@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:26:34 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/30 22:03:06 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 21:59:58 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 21:59:59 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

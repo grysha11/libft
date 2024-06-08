@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:25:49 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/31 00:20:35 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 21:59:52 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 21:59:53 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

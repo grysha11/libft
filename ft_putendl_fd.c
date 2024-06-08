@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:34:35 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/30 00:10:43 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 22:02:27 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 22:02:27 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

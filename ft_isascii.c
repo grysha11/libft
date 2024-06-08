@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:25:04 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/31 00:20:17 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 21:59:45 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 21:59:46 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

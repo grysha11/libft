@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:48:16 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/19 16:48:29 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 22:11:11 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 22:11:11 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

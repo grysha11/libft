@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:44:45 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/19 17:04:31 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 22:10:59 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 22:10:59 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

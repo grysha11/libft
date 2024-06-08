@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:22:12 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/19 16:22:12 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 21:59:27 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 21:59:28 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/29 23:50:05 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/31 12:54:31 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 22:04:09 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 22:04:09 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

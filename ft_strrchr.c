@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hzakharc <hzakharc@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/19 16:44:04 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/05/19 16:44:34 by hzakharc         ###   ########.fr       */
+/*   Created: 2024/06/06 22:10:54 by hzakharc          #+#    #+#             */
+/*   Updated: 2024/06/06 22:10:54 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
