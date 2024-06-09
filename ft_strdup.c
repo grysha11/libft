@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:04:02 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 22:04:03 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/09 17:31:16 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,16 @@ char	*ft_strdup(const char *s1)
 	dup[i] = '\0';
 	return (dup);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char *str = "hello";
+// 	char *str2;
+
+// 	str2 = ft_strdup(str);
+// 	printf("%s\n", str2);
+
+// 	return (0);
+// }

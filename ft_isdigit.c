@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 21:59:52 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 21:59:53 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/09 14:59:30 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,13 @@ int	ft_isdigit(int c)
 		return (0);
 	}
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char c = '3';
+// 	printf("%d\n", ft_isdigit(c));
+
+// 	return (0);
+// }

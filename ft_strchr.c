@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:03:47 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 22:03:48 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/09 17:36:31 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,16 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)s + i);
 	return (NULL);
 }
+
+// #include <stdio.h>
+// #include <string.h>
+
+// int main(void)
+// {
+// 	const char *str = "hAaaaAbbb";
+// 	char *ptr = ft_strchr(str, 'A');
+
+// 	printf("%s\n", ptr);
+
+// 	return (0);
+// }

@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 21:59:58 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 21:59:59 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/09 15:01:36 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,13 @@ int	ft_isprint(int c)
 		return (0);
 	}
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char c = 'a';
+// 	printf("%d\n", ft_isprint(c));
+
+// 	return (0);
+// }

@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 21:59:45 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 21:59:46 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/09 14:58:39 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,3 +23,13 @@ int	ft_isascii(int c)
 		return (0);
 	}
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char c = 127;
+// 	printf("%d\n", ft_isascii(c));
+
+// 	return (0);
+// }

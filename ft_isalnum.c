@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 21:59:27 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 21:59:28 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/09 14:59:07 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,3 +24,13 @@ int	ft_isalnum(unsigned char c)
 		return (0);
 	}
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	char c = 'a';
+// 	printf("%d\n", ft_isalnum(c));
+
+// 	return (0);
+// }

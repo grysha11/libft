@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 21:59:01 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 21:59:05 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/09 15:48:35 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,13 @@ int	ft_atoi(const char *str)
 	}
 	return (res * sign);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+// 	const char *str = "-2147483648";
+// 	printf("%d\n", ft_atoi(str));
+
+// 	return (0);
+// }
