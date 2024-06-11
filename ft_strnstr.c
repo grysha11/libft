@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:10:49 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 22:10:50 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/11 15:43:36 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,12 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
+
+// int main(void)
+// {
+// 	const char str[20] = "hello everyone\n";
+// 	const char *small_str = "everyone";
+// 	char *ptr = ft_strnstr(str, small_str, sizeof(str));
+// 	printf("%s", ptr);
+// 	return (0);
+// }

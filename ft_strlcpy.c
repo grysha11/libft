@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:10:21 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 22:10:22 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/11 14:39:01 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,15 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		i++;
 	return (i);
 }
+
+// int main(void)
+// {
+// 	char dst[10];
+// 	char *src = "hello";
+
+// 	ft_strlcpy(dst, src, sizeof(dst));
+
+// 	printf("%s", dst);
+
+// 	return (0);
+// }

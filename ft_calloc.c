@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 21:59:19 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 21:59:20 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/11 13:15:34 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,16 @@ void	*ft_calloc(size_t count, size_t size)
 		ft_bzero(p, total);
 	return (p);
 }
+
+// int main(void)
+// {
+// 	int *nums = ft_calloc(5, sizeof(int));
+// 	char *str = ft_calloc(15, sizeof(char));
+// 	int	 *zero_arr = ft_calloc(0, sizeof(int));
+
+// 	free(nums);
+// 	free(str);
+// 	free(zero_arr);
+
+// 	return (0);
+// }

@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:10:59 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 22:10:59 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/11 14:48:07 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,14 @@ char	*ft_strtrim(char const *s1, char const *set)
 	}
 	return (str);
 }
+
+// int main(void)
+// {
+// 	const char *str = "\t\ta lot of spaces\t";
+// 	const char *set = "\t";
+
+// 	char *result = ft_strtrim(str, set);
+// 	printf("%s", result);
+
+// 	return (0);
+// }

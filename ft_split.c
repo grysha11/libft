@@ -6,116 +6,90 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:03:15 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/09 14:46:19 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/10 20:17:35 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	matrix_size(const char *s, char c)
+size_t	ft_count(const char *s, char c)
 {
 	size_t	count;
 	size_t	i;
-	size_t	in_sub;
 
 	i = 0;
 	count = 0;
-	in_sub = 0;
 	while (s[i] != '\0')
 	{
-		if (s[i] != c && in_sub == 0)
+		if (s[i] != c)
 		{
-			in_sub = 1;
 			count++;
+			while ((s[i] != '\0') && s[i] != c)
+				i++;
 		}
 		else if (s[i] == c)
-			in_sub = 0;
-		i++;
+			i++;
 	}
 	return (count);
 }
 
-char	**free_matrix(char **matrix, size_t string)
-{
-	while (string > 0)
-		free(matrix[--string]);
-	free(matrix);
-	return (NULL);
-}
-
-char	**allocate_substrings(const char *s, char c, char **matrix)
+size_t	word_len(const char *s, char c)
 {
 	size_t	i;
-	size_t	len;
-	size_t	string;
 
 	i = 0;
-	len = 0;
-	string = 0;
-	while (s[i] != '\0')
-	{
-		while (s[i] != c && s[i] != '\0')
-		{
-			len++;
-			i++;
-		}
-		if ((s[i] == c || s[i + 1] == '\0') && len > 0)
-		{
-			if (s[i] == '\0')
-				len++;
-			matrix[string] = malloc(sizeof(char) * (len + 1));
-			if (matrix[string] == NULL)
-				return (matrix = free_matrix(matrix, string));
-			string++;
-			len = 0;
-		}
-		if (s[i != '\0'])
-			i++;
-	}
-	return (matrix);
+	while (*(s + i) && *(s + i) != c)
+		i++;
+	return (i);
 }
 
-void	assign_matrix(const char *s, char c, char **matrix)
+void	free_matrix(char **matrix, size_t i)
+{
+	while (i > 0)
+	{
+		i--;
+		free(matrix[i]);
+	}
+	free(matrix);
+}
+
+char	**ft_split2(const char *s, char c, char **matrix, size_t words)
 {
 	size_t	i;
 	size_t	j;
-	size_t	k;
 
 	i = 0;
 	j = 0;
-	k = 0;
-	while (s[i] != '\0')
+	while (i < words)
 	{
-		while (s[i] != c && s[i] != '\0')
-		{
-			matrix[j][k] = s[i];
-			i++;
-			k++;
-		}
-		if (k > 0)
-		{
-			matrix[j][k] = '\0';
+		while (s[j] != '\0' && s[j] == c)
 			j++;
-			k = 0;
+		matrix[i] = ft_substr(s, j, word_len((&s[j]), c));
+		if (matrix[i] == NULL)
+		{
+			free_matrix(matrix, i);
+			return (NULL);
 		}
-		if (s[i] != '\0')
-			i++;
+		while (s[j] != '\0' && s[j] != c)
+			j++;
+		i++;
 	}
+	matrix[i] = NULL;
+	return (matrix);
 }
 
-char	**ft_split(char const *s, char c)
+char	**ft_split(const char *s, char c)
 {
 	char	**matrix;
-	size_t	string_count;
+	size_t	words;
 
-	string_count = matrix_size(s, c);
-	matrix = malloc(sizeof(char *) * (string_count + 1));
+	if (s == NULL)
+		return (NULL);
+	words = ft_count(s, c);
+	matrix = malloc(sizeof(char *) * (words + 1));
 	if (matrix == NULL)
 		return (NULL);
-	matrix[string_count] = NULL;
-	if (allocate_substrings(s, c, matrix) == NULL)
-		return (NULL);
-	assign_matrix(s, c, matrix);
+	matrix = ft_split2(s, c, matrix, words);
 	return (matrix);
 }
 

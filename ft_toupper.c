@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:11:16 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 22:11:16 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/11 14:53:38 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,12 @@ int	ft_toupper(int i)
 	}
 	return (i);
 }
+
+// int main(void)
+// {
+// 	char c = 'a';
+
+// 	printf("%c", ft_toupper(c));
+
+// 	return (0);
+// }

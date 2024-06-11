@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:09:47 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 22:09:48 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/11 14:35:59 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,3 +39,14 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	str[i] = '\0';
 	return (str);
 }
+
+// int main(void)
+// {
+// 	const char *str = "hello ";
+// 	const char *str2 = "world\n";
+
+// 	char *result = ft_strjoin(str, str2);
+// 	printf("%s", result);
+
+// 	return (0);
+// }

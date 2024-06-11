@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:11:11 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 22:11:11 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/11 14:53:09 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,16 @@ int	ft_tolower(int i)
 {
 	if (i >= 'A' && i <= 'Z')
 	{
-		return (i + 32);
+		return (i += 32);
 	}
 	return (i);
 }
+
+// int main(void)
+// {
+// 	char c = 'A';
+
+// 	printf("%c", ft_tolower(c));
+
+// 	return (0);
+// }

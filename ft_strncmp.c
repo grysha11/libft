@@ -6,7 +6,7 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:10:42 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/06 22:10:43 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/11 14:40:41 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,13 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return ((unsigned char)(s1[i]) - (unsigned char)(s2[i]));
 }
+
+// int main(void)
+// {
+// 	const char *str = "hello";
+// 	const char *str2 = "heLlo";
+
+// 	printf("%d", ft_strncmp(str, str2, 3));
+
+// 	return (0);
+// }

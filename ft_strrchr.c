@@ -6,36 +6,31 @@
 /*   By: hzakharc <hzakharc@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 22:10:54 by hzakharc          #+#    #+#             */
-/*   Updated: 2024/06/09 17:30:40 by hzakharc         ###   ########.fr       */
+/*   Updated: 2024/06/10 19:06:40 by hzakharc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-static size_t	ft_strlen(const char *s)
-{
-	size_t	i;
-
-	i = 0;
-	while (s[i] != '\0')
-		i++;
-	return (i);
-}
 
 char	*ft_strrchr(const char *s, int c)
 {
 	size_t	i;
 
 	i = ft_strlen(s);
+	if (s[i] == (char)c)
+		return ((char *)s + i);
 	while (i > 0)
 	{
-		if (s[i - 1] == c)
+		if (s[i - 1] == (char)c)
 		{
 			return ((char *)s + i - 1);
 		}
 		--i;
 	}
-	return (NULL);
+	if (s[i] == (char)c)
+		return ((char *)s + i - 1);
+	else
+		return (NULL);
 }
 
 // #include <stdio.h>
@@ -43,8 +38,8 @@ char	*ft_strrchr(const char *s, int c)
 
 // int main(void)
 // {
-// 	const char *str = "hAaaaAbbb";
-// 	char *ptr = ft_strrchr(str, 'A');
+// 	const char *str = "hAaaaAbbz";
+// 	char *ptr = ft_strrchr(str, 'z');
 
 // 	printf("%s\n", ptr);
 
